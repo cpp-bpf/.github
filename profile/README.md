@@ -4,6 +4,7 @@
 [![Contributing](https://img.shields.io/static/v1?label=Contributing&message=Guide&color=brightgreen)](https://github.com/cpp-bpf/.github/blob/main/CONTRIBUTING.md)
 [![Governance](https://img.shields.io/static/v1?label=Governance&message=and%20Maintainers&color=yellow)](https://github.com/cpp-bpf/.github/blob/main/GOVERNANCE.md)
 [![AI Policy](https://img.shields.io/static/v1?label=Generative%20AI&message=Policy&color=blueviolet)](https://github.com/cpp-bpf/.github/blob/main/AI-POLICY.md)
+[![Discussions](https://img.shields.io/static/v1?label=GitHub&message=Discussions&color=orange)](https://github.com/cpp-bpf/cpp-bpf/discussions)
 [![Code of Conduct](https://img.shields.io/static/v1?label=Code%20of&message=Conduct&color=red)](https://github.com/cpp-bpf/.github/blob/main/CODE_OF_CONDUCT.md)
 
 cpp-bpf is an open source project to make C++ a practical and reliable
@@ -23,5 +24,9 @@ cpp-bpf is open to anyone who wants to use or improve C++ for BPF. Read the
 [project vision](https://github.com/cpp-bpf/.github/blob/main/VISION.md) to
 see where we are going, and the
 [contributing guide](https://github.com/cpp-bpf/.github/blob/main/CONTRIBUTING.md)
-to get started. Questions and ideas are welcome in
-[issues](https://github.com/cpp-bpf/cpp-bpf/issues).
+to get started.
+
+- Questions, ideas and things you built: [Discussions](https://github.com/cpp-bpf/cpp-bpf/discussions)
+- Bugs and concrete proposals: [issues](https://github.com/cpp-bpf/cpp-bpf/issues)
+- Current upstream work: [tracking issue](https://github.com/cpp-bpf/cpp-bpf/issues/4)
+- Writing BPF programs in C++? Add yourself to [USERS.md](https://github.com/cpp-bpf/cpp-bpf/blob/main/USERS.md)
