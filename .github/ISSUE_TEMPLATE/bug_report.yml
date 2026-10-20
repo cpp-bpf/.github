@@ -1,0 +1,37 @@
+name: Bug report
+description: Something does not work as expected
+labels: ["kind/bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: How to reproduce
+      description: A minimal program and the commands to build and load it.
+      render: shell
+    validations:
+      required: true
+  - type: input
+    id: clang
+    attributes:
+      label: clang version
+      placeholder: output of `clang --version`
+    validations:
+      required: true
+  - type: input
+    id: kernel
+    attributes:
+      label: Kernel version
+      placeholder: output of `uname -r`
+    validations:
+      required: true
+  - type: input
+    id: libbpf
+    attributes:
+      label: libbpf version
