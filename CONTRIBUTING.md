@@ -48,7 +48,8 @@ The use of AI tools is covered by the [Generative AI Policy](AI-POLICY.md).
 In short: you are fully accountable for what you submit, and non-trivial use
 of AI tools must be disclosed with its
 [AI Influence Level](https://danielmiessler.com/blog/ai-influence-level-ail)
-(AIL) in the pull request description. Do not credit AI tools as authors:
+(AIL) in the pull request description; maintainers add the matching
+`ail:N` label. Do not credit AI tools as authors:
 no `Co-Authored-By` or `Signed-off-by` lines for AI tools, as only a human
 can certify the DCO.
 
