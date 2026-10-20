@@ -1,4 +1,4 @@
-## Hey, this is cpp-bpf
+## cpp-bpf
 
 [![Vision](https://img.shields.io/static/v1?label=Vision&message=and%20Scope&color=blue)](https://github.com/cpp-bpf/.github/blob/main/VISION.md)
 [![Contributing](https://img.shields.io/static/v1?label=Contributing&message=Guide&color=brightgreen)](https://github.com/cpp-bpf/.github/blob/main/CONTRIBUTING.md)
@@ -13,10 +13,12 @@ libbpf rather than replacing them.
 
 ### Status
 
-The project is at an early stage. The current work is compiler support for
-C++ records in LLVM's BPF backend: BTF that the kernel accepts and correct
-CO-RE relocations. The library, examples and project template will follow
-in [cpp-bpf/cpp-bpf](https://github.com/cpp-bpf/cpp-bpf).
+The project is at an early stage and has no release yet. The library,
+examples and build rules are in
+[cpp-bpf/cpp-bpf](https://github.com/cpp-bpf/cpp-bpf). It needs a clang
+with a BTF fix for C++ records that is under review in LLVM; the
+[tracking issue](https://github.com/cpp-bpf/cpp-bpf/issues/4) lists this
+and the other upstream work.
 
 ### Community
 
